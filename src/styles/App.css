@@ -1,0 +1,22 @@
+.page {
+    background-color: lightgreen;
+    margin: 0;
+    color: #000000;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page__item {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 40px 0 0;
+
+}
+
+.row_checked {
+    background: linear-gradient(#F3AE0F, #E38916) #E38916!important;
+}

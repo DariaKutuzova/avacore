@@ -1,0 +1,45 @@
+.grid-list {
+    border: 1px solid darkgreen;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.grid-list__table {
+    display: grid;
+    gap: 20px 17px;
+    grid-template-columns: 1fr 2fr;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-list__table:nth-child(2n) {
+    background: #f3f3f3;
+}
+
+.grid-list__table:hover {
+    background-color: #7ecf7e;
+}
+
+.grid-list__header {
+    border: 1px solid darkgreen;
+    display: grid;
+    gap: 20px 17px;
+    grid-template-columns: 1fr 2fr;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: linear-gradient(#09C500, #09A300) #09C500;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.grid-list__table-cell {
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.grid-list__table-cell:nth-child(2n) {
+    border-left: 1px solid darkgreen;
+}
